@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+    <header>
+     <div class="container">
+        <nav class="flex items-center justify-between">
+            <div class="left flex items-center">
+                <div class="branding">
+                    <img src="data:image/png;base64,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" alt="logo">
+                </div>
+                <div>
+                    <a href="#Home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                </div>
+            </div>
+            <div class="right">
+               <a href="#contact" ><button class="btn btn-primary">Contact</button></a>
+            </div>
+        </nav>
+         <div class="hero flex items-center justify-between">
+             <div class="left flex-1 flex justify-center">
+                 <img src="E:\Varun portfolio\Images\IMG_8083-1.jpg" alt="My image">
+             </div>
+             <div class="right flex-1">
+                 <h6>M.VARUN</h6>
+                 <h1>I'm a Web <span>Developer</span></h1>
+                 <p>A successful website does three things:
+                    It attracts the right kinds of visitors.
+                    Guides them to the main services or product you offer.
+                    Collect Contact details for future ongoing relation.</p>
+             </div>
+         </div>
+      </div> 
+    </header> 
+
+    <section id="about" class="about">
+       <div class="container flex items-center">
+          <div class="flex-1">
+            <img class="about-me-img" src="E:\Varun portfolio\Images\IMG_20200531_203824.jpg" alt="image">
+          </div>
+          <div class="flex-1">
+              <h1>About <span>Me</span></h1>
+              <h3>Hello! I'm M.Varun.</h3>
+              <p>I am Special Mention Member in CSI VIT,AP.
+                 <br> I work as a Web Developer.
+                 <br>We love what we do and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites
+            </p>
+              <div class="social">
+                  <a href="https://www.instagram.com/varun._007_/"><img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png" alt=""></a>
+                  <a href="https://mobile.twitter.com/Varun72272"><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter.png" alt=""></a>
+              </div>
+          </div>
+       </div>
+    </section>
+    <section id="skills" class="Skills">
+        <div class="container">
+
+            <h1>Skills</h1>
+            <p>Skill is better than strength</p>
+        
+             <ul class="skill-bars">
+                <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>HTML5</strong>
+                </li>
+                <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>CSS3</strong>
+                </li>
+                <li>
+                    <div class="progress percent40"><span>40%</span></div>
+                    <strong>Python</strong>
+                </li>
+                <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>C-Language</strong>
+                </li>
+                <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>MS-OFFICE</strong>
+                </li>
+             </ul>
+    </section>
+
+    <section id="services" class="services">
+       <div class="container">
+           <h1 class="section-heading"><span>Our </span>Services</h1>
+           <p>We provide high standard clean website for your business solutions
+               <br>I’m passionate about building & designing thoughtful experiences to make sure your customers and users are satisfied when they’re using your products and services online.
+           </p>
+        <div class="card-wrapper">    
+              <div class="card">
+                   <img src="https://img.icons8.com/external-wanicon-lineal-wanicon/85/000000/external-social-media-advertising-wanicon-lineal-wanicon.png" alt="Media Marketing">
+                   <h2>Media Marketing</h2>
+                   <p>I use social media as an idea generator, trend mapper and strategic compass for all of our online business ventures.</p>   
+              </div> 
+              <div class="card">
+                   <img src="https://img.icons8.com/material-outlined/85/000000/design--v1.png" alt="UI/UX Design">
+                   <h2>Web Development </h2>
+                   <p>Website without visitors is like a ship lost in the horizon.</p>
+              </div>
+       </div> 
+    </section>
+    <section class="freelancer">
+      <h1>I am Available for FreeLancer</h1>
+      <p>I provide high standard clean website for your business.</p>
+      <a href="E:\Varun portfolio\Photo.pdf"><button class="btn btn-primary">Download CV</button></a>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="section-heading">Contact <span>Me</span></h1>
+            <p>Contact me for more queries</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="https://img.icons8.com/ios-glyphs/48/000000/phone-disconnected.png" alt="call us on">
+                    <h2>Call me on</h2>
+                    <h6>+91-8074465912</h6>
+                </div>
+                <div class="card">
+                    <img src="https://img.icons8.com/ios-filled/48/000000/mail.png"  alt="email us">
+                    <h2>Email me at</h2>
+                    <h6>vk.varunkumar07@gmail.com</h6>
+                </div>
+            </div>
+         <form action="https://formspree.io/f/xpzbarow" method="POST">
+                <div class="input-wrap">
+                <input type="text" placeholder="Your Name *" name="name">
+                <input type="email" placeholder="Your email *" name="email">
+            </div>
+            <div class="input-wrap-2">
+                <input type="Text" placeholder="Your Subject..." name="subject">
+                <textarea  cols="30" rows="10" placeholder="Your Message..." name="message"></textarea>
+            </div>
+            <div class="btn-wrapper">
+                <button class="btn btn-primary">Send Message</button>
+            </div>
+         </form>
+        </div>
+    </section>
+    <footer>
+        <img class="footer-logo" src="data:image/png;base64,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"  alt="logo">
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/varun._007_/"><img src="https://img.icons8.com/fluency/24/ffffff/instagram-new.png" alt="instagram"></a>
+            <a href="https://mobile.twitter.com/Varun72272"><img src="https://img.icons8.com/external-justicon-lineal-color-justicon/24/ffffff/external-twitter-social-media-justicon-lineal-color-justicon.png" alt="twitter"></a>
+        </div>
+        <div class="copyright">
+            Copyright 2020 Name PSD Template. All Right Reserved.
+        </div>
+    </footer>
+</body>
+
+
+</html>
